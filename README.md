@@ -10,7 +10,7 @@ JavaScript (ES6)
 # Instruções de Uso
 Clone o Repositório: Clone este repositório para o seu computador local usando o seguinte comando:
 
-git clone https://github.com/jvaziz/pokedex.git
+git clone [https://github.com/jvaziz/pokedex.git](https://github.com/jvaziz/Pokedex1.0.git)
 
 2.Abra o Arquivo HTML: Navegue até a pasta do projeto e abra o arquivo "index.html" em seu navegador da web.
 

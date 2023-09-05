@@ -1,0 +1,24 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+    margin: 0; /* Remova as margens padrão do corpo */
+}
+
+.content {
+    padding: 1rem;
+    min-height: 100vh; /* Em vez de 'height', use 'min-height' para evitar problemas com conteúdo longo */
+    box-sizing: border-box; /* Adicione para garantir que o preenchimento não aumente a altura */
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin: 0 auto;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra para destacar a área de conteúdo */
+    }
+}
